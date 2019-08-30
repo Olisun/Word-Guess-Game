@@ -18,7 +18,11 @@ document.onkeyup = function(event) {
 
   if (keypress === 'd') {
     letterOne.innerHTML = 'D'
-  };
+    guessesRemaining--
+    remainingGuesses.innerText = guessesRemaining
+  } else if (keypress !== 'd') {
+    guessesRemaining--
+  }
   if (keypress === 'o') {
     letterTwo.innerHTML = 'O'
   };

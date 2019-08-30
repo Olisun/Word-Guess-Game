@@ -1,12 +1,9 @@
-body {
-  text-align: center;
-}
+body {}
 
 .container1 {
   border: 1px solid red;
   display: inline-flex;
   font-size: 48px;
-  text-align: center;
   letter-spacing: 20px
 }
 
@@ -23,7 +20,6 @@ body {
 
 #message {
   border: 1px solid red;
-  margin: 600px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 24px;
@@ -31,7 +27,6 @@ body {
 
 #list {
   border: 1px solid red;
-  padding-left: 400px;
 }
 
 .myStyle {
