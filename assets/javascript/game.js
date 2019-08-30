@@ -20,15 +20,22 @@ document.onkeyup = function(event) {
     letterOne.innerHTML = 'D'
     guessesRemaining--
     remainingGuesses.innerText = guessesRemaining
-  } else if (keypress !== 'd') {
+    userMessage.innerHTML = 'Nice Guess!'
+  } else {
     guessesRemaining--
+    remainingGuesses.innerText = guessesRemaining
   }
+
   if (keypress === 'o') {
     letterTwo.innerHTML = 'O'
-  };
-  if (keypress === 'g') {
-    letterThree.innerHTML = 'G'
-  };
+    guessesRemaining--
+    remainingGuesses.innerText = guessesRemaining
+    userMessage.innerHTML = 'Nice Guess!'
+  } else {
+    guessesRemaining--
+    remainingGuesses.innerHTML = guessesRemaining
+  }
+
 
   li.appendChild(document.createTextNode(keypress));
   ol.appendChild(li);
