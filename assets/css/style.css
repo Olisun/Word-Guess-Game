@@ -29,6 +29,11 @@ body {
   font-size: 24px;
 }
 
+#list {
+  border: 1px solid red;
+  padding-left: 400px;
+}
+
 .myStyle {
   display: none;
 }

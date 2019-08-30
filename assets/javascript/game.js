@@ -13,6 +13,9 @@ var guessesRemaining = 10;
 
 document.onkeyup = function(event) {
   var keypress = event.key;
+  var ol = document.querySelector('ol');
+  var li = document.createElement('li');
+
   if (keypress === 'd') {
     letterOne.innerHTML = 'D'
   };
@@ -22,8 +25,11 @@ document.onkeyup = function(event) {
   if (keypress === 'g') {
     letterThree.innerHTML = 'G'
   };
-  if (keypress === 'd' && keypress === 'd')
+
+  li.appendChild(document.createTextNode(keypress));
+  ol.appendChild(li);
 }
+
 
 
 
