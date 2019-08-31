@@ -1,37 +1,59 @@
-.computers-word {
-  font-size: 32px;
-}
-
-.container1 {
-  display: inline-flex;
-  font-size: 48px;
-  letter-spacing: 20px
-}
-
-.container2 {
-  display: inline-flex;
-  font-size: 24px;
-}
-
-#guesses-remaining {
-  margin-left: 5px;
-}
-
-#message {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: blue;
-}
-
-
-/* #list {} */
-
-.output {
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-.myStyle {
-  display: none;
-}
+ #word-guess-game {
+   font-size: 40px;
+   margin-left: 10px
+ }
+ 
+ .trivia {
+   margin-left: 10px;
+   font-size: 20px;
+ }
+ 
+ .clue {
+   font-size: 18px;
+   margin-left: 15px;
+ }
+ 
+ .container1 {
+   display: inline-flex;
+   font-size: 48px;
+   letter-spacing: 20px;
+   margin-left: 40px
+ }
+ 
+ .container2 {
+   display: inline-flex;
+   font-size: 24px;
+   margin-left: 20px
+ }
+ 
+ #guesses-remaining {
+   margin-left: 5px;
+ }
+ 
+ #message {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 24px;
+   color: blue;
+ }
+ 
+ .rules {
+   font-size: 24px;
+   margin-left: -20px;
+ }
+ 
+ .rules-list {
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: 10px;
+ }
+ 
+ .output {
+   font-size: 24px;
+   margin-top: 20px;
+   margin-left: 20px
+ }
+ 
+ .myStyle {
+   display: none;
+ }
