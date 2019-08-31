@@ -1,32 +1,31 @@
+.computers-word {
+  font-size: 32px;
+}
+
 .container1 {
-  border: 1px solid red;
   display: inline-flex;
   font-size: 48px;
   letter-spacing: 20px
 }
 
 .container2 {
-  border: 1px solid red;
   display: inline-flex;
   font-size: 24px;
 }
 
 #guesses-remaining {
-  border: 1px solid red;
   margin-left: 5px;
 }
 
 #message {
-  border: 1px solid red;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 24px;
   color: blue;
 }
 
-#list {
-  border: 1px solid red;
-}
+
+/* #list {} */
 
 .output {
   font-size: 24px;
